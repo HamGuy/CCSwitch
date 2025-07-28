@@ -41,10 +41,17 @@ CC Switch 是一个原生 macOS 菜单栏应用程序，让您可以轻松切换
 
 #### 方式一：从发布页面下载（推荐）
 
-1. 从 [GitHub Releases](https://github.com/hamguy/CCSwitch/releases/latest) 下载最新版本
-2. 解压下载的文件
-3. 将 `CCSwitch.app` 拖到您的应用程序文件夹
-4. 启动应用，并在提示时授予必要权限
+**⚠️ 重要：由于应用程序未经 Apple 签名，首次安装需要特殊步骤**
+
+1. 从 [GitHub Releases](https://github.com/hamguy/CCSwitch/releases/latest) 下载最新版本的 `CCSwitch-x.x.x.dmg`
+2. 双击挂载 DMG 文件
+3. 将 `CCSwitch.app` 拖拽到 `Applications` 文件夹
+4. **首次运行**：
+   - 在 Applications 文件夹中，按住 `Control` 键并点击 `CCSwitch.app`
+   - 选择"打开"，然后在安全对话框中再次点击"打开"
+   - 或者在 `系统偏好设置` > `安全性与隐私` > `通用` 中点击"仍要打开"
+
+📖 **详细安装指南**：请查看 [INSTALL.md](INSTALL.md) 获取完整的安装说明和故障排除方法。
 
 #### 方式二：从源代码构建
 
@@ -153,6 +160,41 @@ ccswitch
 ccswitch --reset
 ```
 
+### 💖 支持项目
+
+如果 CCSwitch 对您有帮助，欢迎支持开源项目的发展！您的支持将帮助我们：
+- 🛠 持续改进和修复 bug
+- ✨ 开发更多实用功能
+- 🔐 购买 Apple 开发者证书提供签名版本
+- 📚 完善文档和用户指南
+
+#### 捐赠方式
+
+<div align="center">
+
+**☕ Buy Me a Coffee**
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-支持开发-orange?style=for-the-badge&logo=buy-me-a-coffee)](https://coff.ee/wangrui15f)
+
+**💰 国内支付**
+
+<table>
+<tr>
+<td>
+<img src="imgs/alipay.PNG" width="200" alt="支付宝收款码"><br>
+<b>支付宝</b>
+</td>
+<td>
+<img src="imgs/wechat.JPG" width="200" alt="微信收款码"><br>
+<b>微信支付</b>
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
 ### 📜 许可证
 
 本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
@@ -201,10 +243,17 @@ CC Switch is a native macOS menu bar application that allows you to effortlessly
 
 #### Option 1: Download from Releases (Recommended)
 
-1. Download the latest release from [GitHub Releases](https://github.com/hamguy/CCSwitch/releases/latest)
-2. Unzip the downloaded file
-3. Drag `CC Switch.app` to your Applications folder
-4. Launch the app and grant necessary permissions when prompted
+**⚠️ Important: Since the app is not signed by Apple, special steps are required for first-time installation**
+
+1. Download the latest `CCSwitch-x.x.x.dmg` from [GitHub Releases](https://github.com/hamguy/CCSwitch/releases/latest)
+2. Double-click to mount the DMG file
+3. Drag `CCSwitch.app` to your `Applications` folder
+4. **First launch**:
+   - In Applications folder, hold `Control` and click `CCSwitch.app`
+   - Select "Open", then click "Open" again in the security dialog
+   - Or go to `System Preferences` > `Security & Privacy` > `General` and click "Open Anyway"
+
+📖 **Detailed Installation Guide**: See [INSTALL.md](INSTALL.md) for complete installation instructions and troubleshooting.
 
 #### Option 2: Build from Source
 
@@ -313,6 +362,41 @@ ccswitch
 ccswitch --reset
 ```
 
+### 💖 Support the Project
+
+If CCSwitch has been helpful to you, consider supporting the development of this open-source project! Your support helps us:
+- 🛠 Continue improving and fixing bugs
+- ✨ Develop more useful features  
+- 🔐 Purchase Apple Developer Certificate for signed versions
+- 📚 Improve documentation and user guides
+
+#### Donation Options
+
+<div align="center">
+
+**☕ Buy Me a Coffee**
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support%20Development-orange?style=for-the-badge&logo=buy-me-a-coffee)](https://coff.ee/wangrui15f)
+
+**💰 Chinese Payment Methods**
+
+<table>
+<tr>
+<td>
+<img src="imgs/alipay.PNG" width="200" alt="Alipay QR Code"><br>
+<b>Alipay</b>
+</td>
+<td>
+<img src="imgs/wechat.JPG" width="200" alt="WeChat Pay QR Code"><br>
+<b>WeChat Pay</b>
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
 ### 🧩 Architecture
 
 CC Switch is built with modern Swift technologies:
@@ -364,5 +448,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
 
 Made with ❤️ for the Claude Code community
+
+---
+
+💖 **如果觉得有用，请考虑 [支持一下开发者](https://coff.ee/wangrui15f) ☕**
+
+⭐ **Don't forget to star this repo if you find it helpful!**
 
 </div>
