@@ -1,12 +1,6 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "" : {
-
-    },
-    "*" : {
-
-    },
     "Active" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -35,9 +29,6 @@
           }
         }
       }
-    },
-    "Add Configuration" : {
-
     },
     "Add Configuration..." : {
       "extractionState" : "manual",
@@ -473,9 +464,6 @@
           }
         }
       }
-    },
-    "Browse" : {
-
     },
     "Browse..." : {
       "extractionState" : "manual",
