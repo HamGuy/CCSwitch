@@ -34,7 +34,7 @@ CC Switch 是一个原生 macOS 菜单栏应用程序，让您可以轻松切换
 
 ### 📋 系统要求
 
-- macOS 11.0 或更高版本
+- macOS 13.0 或更高版本
 - 已安装 Claude Code CLI
 
 ### 📥 安装
@@ -236,7 +236,7 @@ CC Switch is a native macOS menu bar application that allows you to effortlessly
 
 ### 📋 Requirements
 
-- macOS 11.0 or later
+- macOS 13.0 or later
 - Claude Code CLI installed
 
 ### 📥 Installation
