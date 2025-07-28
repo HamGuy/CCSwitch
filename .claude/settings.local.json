@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(plutil:*)",
+      "Bash(python3:*)",
+      "Bash(jq:*)"
+    ],
+    "deny": []
+  }
+}
