@@ -11,6 +11,13 @@ on:
         required: true
         type: string
 
+# 添加必要的权限
+permissions:
+  contents: write
+  packages: write
+  issues: write
+  pull-requests: write
+
 jobs:
   build:
     runs-on: macos-latest
@@ -108,7 +115,7 @@ jobs:
         cat checksums.txt
         
     - name: Create Release
-      uses: softprops/action-gh-release@v1
+      uses: softprops/action-gh-release@v2
       with:
         tag_name: v${{ steps.version.outputs.VERSION }}
         name: CCSwitch v${{ steps.version.outputs.VERSION }}
