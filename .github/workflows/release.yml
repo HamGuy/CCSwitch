@@ -37,7 +37,7 @@ jobs:
       run: |
         cd ccswitch-mac
         xcodebuild -project ccswitch.xcodeproj \
-          -scheme ccswitch \
+          -scheme CCSwitch \
           -configuration Release \
           -derivedDataPath build \
           -destination 'platform=macOS' \

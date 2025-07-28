@@ -12,7 +12,7 @@ BUNDLE_ID="com.ccswitch.app"
 PROJECT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 BUILD_DIR="${PROJECT_DIR}/build"
 DIST_DIR="${BUILD_DIR}/dist"
-APP_PATH="${BUILD_DIR}/Build/Products/Release/${APP_NAME}.app"
+APP_PATH="${BUILD_DIR}/Build/Products/Release/CCSwitch.app"
 DMG_PATH="${DIST_DIR}/${APP_NAME}-${VERSION}.dmg"
 
 echo "🚀 开始构建 ${APP_NAME} v${VERSION}"
@@ -28,10 +28,13 @@ cd "${PROJECT_DIR}/ccswitch-mac"
 
 # 使用 xcodebuild 构建项目
 xcodebuild -project ccswitch.xcodeproj \
-    -scheme ccswitch \
+    -scheme CCSwitch \
     -configuration Release \
     -derivedDataPath "${BUILD_DIR}" \
-    -destination 'platform=macOS,arch=x86_64,variant=Mac Catalyst' \
+    -destination 'platform=macOS' \
+    CODE_SIGN_IDENTITY="" \
+    CODE_SIGNING_REQUIRED=NO \
+    CODE_SIGNING_ALLOWED=NO \
     build
 
 # 检查应用程序是否构建成功
