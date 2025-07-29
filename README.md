@@ -181,11 +181,11 @@ ccswitch --reset
 <table>
 <tr>
 <td>
-<img src="imgs/alipay.PNG" width="200" alt="支付宝收款码"><br>
+<img src="https://cdn.hamguy.xyz/IMG_8236.PNG" width="200" alt="支付宝收款码"><br>
 <b>支付宝</b>
 </td>
 <td>
-<img src="imgs/wechat.JPG" width="200" alt="微信收款码"><br>
+<img src="https://cdn.hamguy.xyz/IMG_8238.JPG" width="200" alt="微信收款码"><br>
 <b>微信支付</b>
 </td>
 </tr>
@@ -383,11 +383,11 @@ If CCSwitch has been helpful to you, consider supporting the development of this
 <table>
 <tr>
 <td>
-<img src="imgs/alipay.PNG" width="200" alt="Alipay QR Code"><br>
+<img src="https://cdn.hamguy.xyz/IMG_8236.PNG" width="200" alt="Alipay QR Code"><br>
 <b>Alipay</b>
 </td>
 <td>
-<img src="imgs/wechat.JPG" width="200" alt="WeChat Pay QR Code"><br>
+<img src="https://cdn.hamguy.xyz/IMG_8238.JPG" width="200" alt="WeChat Pay QR Code"><br>
 <b>WeChat Pay</b>
 </td>
 </tr>
